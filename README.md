@@ -13,13 +13,13 @@ CSS: Styling for a polished and visually appealing design.
 bash
 Copy code
 mounira-2.0/
-├── index.html             # Main HTML file
+├── index.html # Main HTML file
 ├── styles/
-│   └── style.css          # Main CSS file
+│ └── style.css # Main CSS file
 ├── assets/
-│   ├── images/            # Images used in the landing page
-│   └── fonts/             # Custom fonts (if any)
-└── README.md              # Project documentation
+│ ├── images/ # Images used in the landing page
+│ └── fonts/ # Custom fonts (if any)
+└── README.md # Project documentation
 🚀 Getting Started
 Follow these steps to view the landing page locally:
 
@@ -49,4 +49,4 @@ This project is licensed under the MIT License.
 For any inquiries or feedback, feel free to reach out:
 
 Author: Ayush001612
-Email: [anandayush573@gmail.com]
+Email: [Anandayush573@gmail.com]
