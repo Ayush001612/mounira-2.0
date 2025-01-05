@@ -16,6 +16,9 @@ Mounira 2.0 is a beautifully designed landing page that showcases **[insert purp
 
 ## 📂 Project Structure
 
+mounira-2.0/ ├── index.html # Main HTML file ├── styles/ │ └── style.css # Main CSS file ├── assets/ │ ├── images/ # Images used in the landing page │ └── fonts/ # Custom fonts (if any) └── README.md # Project documentation
+
+
 ## 🚀 Getting Started
 Follow these steps to view the landing page locally:
 
@@ -28,3 +31,22 @@ Clone the repository:
 ```bash
 git clone https://github.com/Ayush001612/mounira-2.0.git
 cd mounira-2.0
+Open the index.html file in your browser:
+
+Double-click the file.
+Or, use a live server (e.g., VS Code's Live Server extension) for a better development experience.
+✨ Customization
+To modify the page:
+
+Open index.html to edit the structure.
+Open styles/style.css to update the design.
+📜 License
+This project is licensed under the MIT License.
+
+📧 Contact
+For any inquiries or feedback, feel free to reach out:
+
+Author: Ayush001612
+Email: [anandayush573@gmail.com]
+
+</div>
