@@ -1,251 +1,207 @@
-*{
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(1, 19, 35);
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
 }
-.topnav{
+
+.topnav {
     width: 100%;
     height: 60px;
-    flex-wrap: nowrap;
-    justify-content: space-around;
     display: flex;
-    color: white;
-    text-align: center;
-    
-    
+    justify-content: space-around;
+    align-items: center;
+   
 }
 
-.topnav a{
+.topnav a {
     text-decoration: none;
-    /* margin-top: 30px; */
     color: aliceblue;
+    padding: 15px;
+    flex: 1;
     text-align: center;
-    float: left;
-    padding: 23px;
-    width: 100%;
 }
-.topnav img{
-    /* margin-top: 30px; */
-    
+
+.topnav img {
     width: 80px;
     height: auto;
-
 }
 
-.contact{
+.topnav .contact{
     background-color: rgb(20, 20, 255);
+    border-radius: 50px;
 }
 
-.section-1{
+.section-1 {
     color: aliceblue;
-    height: 500px;
-    width: 700px;
-    font-size: 70px;
-    text-align: center;
-    /* border: 2px solid white; */
-    margin: auto;
-}
-.section-1 .small-text{
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
-}
-.button-1 button{
-   color: aliceblue;
-   background-color:  rgb(20, 20, 255);
-   height: 35px;
-   width: 170px;
-   border-radius: 20px;
-   border-color: rgb(1, 19, 35);
-   border: rgb(1, 19, 35);
-}
-
-.section-2{
-   
-    height: 300px;
-    /* border: 1px solid white; */
-    display: flex;
-}
-
-.left-side{
-    /* border: 1px solid white; */
-    height: 300px;
-    width: 50%;
-    font-size: 40px;
-    font-weight: 700;
+    padding: 20px;
     text-align: center;
 }
 
-.right-side{
-    /* border: 1px solid white; */
-    height: 300px;
-    width: 50%;
-}
-
-.small-text1{
-    font-size: 20px;
-    font-weight: 400;
-    
-}
-
-.right-side img{
-    height: 230px;
-    /* max-width: fit-content; */
+.section-1 .small-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
     width: 100%;
-    margin-top: 50px;
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
-    object-fit: scale-down;
-
+    word-wrap: break-word;
 }
 
-.section-3{
-    color: aliceblue;
-    height: 700px;
-    width: 700px;
-    font-size: 70px;
-    text-align: center;
-    /* border: 2px solid white; */
-    margin: auto;
-}
-
-.section-3 .small-text2{
-    font-size: 15px;
-    word-spacing: 1px;
-
-}
-.section-3 .large-text{
-    letter-spacing: 10px;
-}
-
-.name-input{
-    width: 500px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid rgb(1, 19, 35);
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.email-input{
-    width: 500px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid rgb(1, 19, 35);
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.contact-button button{
+.button-1 button {
     color: aliceblue;
     background-color: rgb(20, 20, 255);
-    height: 35px;
-    width: 170px;
+    height: 40px;
+    width: 180px;
     border-radius: 20px;
-    border-color: rgb(1, 19, 35);
-    border: rgb(1, 19, 35);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
 
-.section-4{
+.left-side, .right-side {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    word-wrap: nowrap;
+}
+.left-side p{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.right-side img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.section-3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.section-3 input, .section-3 textarea {
+    width: 80%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 12px;
+    border: 1px solid rgb(1, 19, 35);
+    border-radius: 4px;
+    display: block;
+}
+
+.contact-button button {
+    color: aliceblue;
+    background-color: rgb(20, 20, 255);
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.section-4 {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    display: flex;
-    clear: both;
-    /* flex-wrap: nowrap; */
-    /* position: relative; */
+    padding: 20px;
+    background-color: rgb(1, 19, 35);
+}
+
+.section-4 div {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.section-4 i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.section-5 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(20, 20, 255);
+}
+
+.section-6 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(1, 19, 35);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .topnav {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .topnav a {
+        flex: none;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .section-2 {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+       
+    }
+
     
+    .section-3 input, .section-3 textarea {
+        width: 90%;
+    }
+
+    .section-4 {
+        flex-direction: column;
+    }
+
+    .section-4 div {
+        max-width: 100%;
+    }
 }
 
-.loc{
-    display: inline-block;
-   flex-wrap: nowrap;
-}
+@media (max-width: 480px) {
+    .section-1 .small-text {
+        font-size: 16px;
+    }
 
-.loc i{
-    float: left;
-    padding-right: 15px;
-}
-.loc .loc-text1{
-   display: inline-block;
-   padding-right: 15px;
-}
-.loc h4{
-    font-weight: 800;
-}
-.loc span{
-    color: grey;
-}
+    .section-2 {
+        padding: 10px;
+    }
 
+    .section-3 input, .section-3 textarea {
+        font-size: 14px;
+    }
 
+    .contact-button button {
+        width: 150px;
+    }
 
-
-.phone{
-    display: inline-block;
-   flex-wrap: nowrap;
-}
-
-.phone i{
-    float: left;
-    padding-right: 15px;
-}
-.phone .loc-text2{
-   display: inline-block;
-   padding-right: 15px;
-}
-.phone h4{
-    font-weight: 800;
-}
-.phone span{
-    color: grey;
-}
-
-
-
-.email{
-    display: inline-block;
-   flex-wrap: nowrap;
-}
-
-.email i{
-    float: left;
-    padding-right: 15px;
-}
-.email .loc-text3{
-   display: inline-block;
-   padding-right: 15px;
-}
-.email h4{
-    font-weight: 800;
-}
-.email span{
-    color: grey;
-}
-
-/* About Us Page CSS styling */
-
-.main-section h1{
-    font-size: 70px;
-    font-weight: 500;
-    text-align: center;
-}
-
-/* Contact Us Page CSS Styling */
-
-.main-section1 h1{
-    font-size: 70px;
-    font-weight: 500;
-    text-align: center;
-}
-
-.section-6{
-    margin-top: 50px;
-    display: flex;
+    .section-4 i {
+        font-size: 1.5rem;
+    }
 }
