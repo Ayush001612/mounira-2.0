@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(1, 19, 35);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.topnav{
+    width: 100%;
+    height: 60px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.topnav a{
+    text-decoration: none;
+    /* margin-top: 30px; */
+    color: aliceblue;
+    text-align: center;
+    float: left;
+    padding: 23px;
+    width: 100%;
+}
+.topnav img{
+    /* margin-top: 30px; */
+    
+    width: 80px;
+    height: auto;
+
+}
+
+.contact{
+    background-color: rgb(20, 20, 255);
+}
+
+.section-1{
+    color: aliceblue;
+    height: 500px;
+    width: 700px;
+    font-size: 70px;
+    text-align: center;
+    /* border: 2px solid white; */
+    margin: auto;
+}
+.section-1 .small-text{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+.button-1 button{
+   color: aliceblue;
+   background-color:  rgb(20, 20, 255);
+   height: 35px;
+   width: 170px;
+   border-radius: 20px;
+   border-color: rgb(1, 19, 35);
+   border: rgb(1, 19, 35);
+}
+
+.section-2{
+   
+    height: 300px;
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.left-side{
+    /* border: 1px solid white; */
+    height: 300px;
+    width: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.right-side{
+    /* border: 1px solid white; */
+    height: 300px;
+    width: 50%;
+}
+
+.small-text1{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.right-side img{
+    height: 230px;
+    /* max-width: fit-content; */
+    width: 100%;
+    margin-top: 50px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    object-fit: scale-down;
+
+}
+
+.section-3{
+    color: aliceblue;
+    height: 700px;
+    width: 700px;
+    font-size: 70px;
+    text-align: center;
+    /* border: 2px solid white; */
+    margin: auto;
+}
+
+.section-3 .small-text2{
+    font-size: 15px;
+    word-spacing: 1px;
+
+}
+.section-3 .large-text{
+    letter-spacing: 10px;
+}
+
+.name-input{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(1, 19, 35);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.email-input{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(1, 19, 35);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-button button{
+    color: aliceblue;
+    background-color: rgb(20, 20, 255);
+    height: 35px;
+    width: 170px;
+    border-radius: 20px;
+    border-color: rgb(1, 19, 35);
+    border: rgb(1, 19, 35);
+}
+
+
+.section-4{
+    justify-content: space-evenly;
+    display: flex;
+    clear: both;
+    /* flex-wrap: nowrap; */
+    /* position: relative; */
+    
+}
+
+.loc{
+    display: inline-block;
+   flex-wrap: nowrap;
+}
+
+.loc i{
+    float: left;
+    padding-right: 15px;
+}
+.loc .loc-text1{
+   display: inline-block;
+   padding-right: 15px;
+}
+.loc h4{
+    font-weight: 800;
+}
+.loc span{
+    color: grey;
+}
+
+
+
+
+.phone{
+    display: inline-block;
+   flex-wrap: nowrap;
+}
+
+.phone i{
+    float: left;
+    padding-right: 15px;
+}
+.phone .loc-text2{
+   display: inline-block;
+   padding-right: 15px;
+}
+.phone h4{
+    font-weight: 800;
+}
+.phone span{
+    color: grey;
+}
+
+
+
+.email{
+    display: inline-block;
+   flex-wrap: nowrap;
+}
+
+.email i{
+    float: left;
+    padding-right: 15px;
+}
+.email .loc-text3{
+   display: inline-block;
+   padding-right: 15px;
+}
+.email h4{
+    font-weight: 800;
+}
+.email span{
+    color: grey;
+}
+
+/* About Us Page CSS styling */
+
+.main-section h1{
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Contact Us Page CSS Styling */
+
+.main-section1 h1{
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.section-6{
+    margin-top: 50px;
+    display: flex;
+}
