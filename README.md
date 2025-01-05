@@ -49,4 +49,4 @@ This project is licensed under the MIT License.
 For any inquiries or feedback, feel free to reach out:
 
 Author: Ayush001612
-Email: [your-email@example.com]
+Email: [anandayush573@gmail.com]
